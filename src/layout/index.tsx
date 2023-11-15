@@ -16,10 +16,16 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     <>
       <div className={styles.app_container}>
         <Head>
-          <title>Bitcoin Transcription Reviews</title>
-          <meta name="description" content="Bitcoin Transcription Review" />
+          <title>Bitcoin Transcripts Reviews</title>
+          <meta name="description" content="Review Technical Bitcoin Transcripts and Earn Sats" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="icon" href="./btc-transcript-circle-128.png" />
+          <link rel="icon" href="./btctranscripts.png" />
+          <meta property="og:image" content="https://review.btctranscripts.com/btctranscripts.png"></meta>
+          <meta property="og:title" content="Bitcoin Transcripts Reviews"></meta>
+          <meta property="og:url" content="https://review.btctranscripts.com"></meta>
+          <meta property="og:description" content="Review Technical Bitcoin Transcripts and Earn Sats"></meta>
+          <meta name="twitter:card" content="summary"></meta>
+          <meta name="twitter:image" content="https://review.btctranscripts.com/btctranscripts.png"></meta>
         </Head>
         {!isHomePage && <Navbar />}
         <GlobalContainer
